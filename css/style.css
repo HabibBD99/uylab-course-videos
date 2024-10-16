@@ -1,0 +1,78 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+background-color: white;
+
+}
+
+.myButton{
+cursor: pointer;
+user-select: none;
+	
+}
+
+.Download_button{
+ background-color: gold;
+ text-decoration: none;
+ font-weight: bold;
+
+}
+
+.article{
+ text-align: left;
+ margin-top: 60px;
+
+}
+
+
+.header_part{
+ height: 50px;
+ width: 100%;
+ background-color: ghostwhite;
+ position: relative;
+ top: 0px;
+ position: fixed;
+
+
+}
+
+.header_part ul li a{
+list-style-type: none;
+text-decoration: none;
+font-weight: bold;
+font-family: sans-serif;
+padding: 5px 10px;
+
+
+}
+.active{
+ background-color: darkgreen;
+ color: white;
+ border-radius: 2px;
+
+}
+
+.header_part ul li a:hover{
+ background-color: darkgreen;
+ color: white;
+ border-radius: 2px;
+
+}
+
+.header_part ul{
+ position: relative;
+ top: 14px;
+
+}
+
+.header_part ul li{
+display: inline;
+padding: 20px 15px;
+
+
+}
+

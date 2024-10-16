@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Part</title>
+    <link rel="stylesheet" type="text/css" href="..\css/style.css">
+    <link rel="stylesheet" type="text/css" href="..\css/document.css">
+</head>
+<body>
+
+<!--------------------
+   Menu Coding Start
+----------------------->
+     <div class="header_part">
+       <ul>
+       	 <li><a class="myButton active">Home</a></li>
+         <li><a class="myButton">About</a></li>
+         <li><a class="myButton">Contact</a></li>
+         <li><a class="myButton">Images</a></li>
+         <li><a class="myButton">Videos</a></li>
+         <li><a class="myButton">Audio</a></li>
+         <li><a class="myButton">Apps</a></li>
+       </ul>      	
+     </div>          
+<!--------------------
+    Menu Coding End
+----------------------->	
+
+
+<script type="text/javascript" src="..\js/images.js"></script>
+<article class="Images_Article">
+   <script>
+      for(var x=0; x<imagesDetails.length; x++)
+      {
+     document.write('<table class="Image_Table">');
+         document.write('<tr>');
+            document.write("<td><h1 class='Image_Name'>"+imagesDetails[x].imageName+"</h1></td>");
+        document.write('</tr>');
+        document.write('<tr>');
+            document.write('<td height="416" width="650"><img src="'+imagesDetails[x].imagePath+'" class="Images" alt="'+imagesDetails[x].imageAlt+'"></td>');
+        document.write('</tr>');
+        document.write('<tr>');
+            document.write('<td><a href="'+imagesDetails[x].imagePath+'" class="Download_Button" download="true">Download</a></td>');
+        document.write('</tr>');
+        document.write('<tr>');
+            document.write('<td height="125" width="650">');
+            document.write('<p class="Image_Description">'+imagesDetails[x].imageDescription+'</p>');
+           document.write('</td>');
+           document.write('</tr>');
+       document.write('</table>')
+
+       }
+
+   </script> 
+
+</article>
+
+
+<script>
+
+
+/*
+
+ for(var x=0; x<imagesDetails.length; x++){
+    document.write("<h1>"+imagesDetails[x].imageName+"</h1>");
+    document.write('<img src="'+imagesDetails[x].imagePath+'" alt="" height="200" width="230">');
+    document.write("<p>"+imagesDetails[x].imageDescription+"</p>");
+    //document.write("<hr><br>");
+  }
+  */
+</script>
+
+
+<script type="text/javascript" src="../js/document.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.Images_Article{
+height: 650px;
+width: 650px;
+margin: 0 auto;
+margin-top: 50px;
+
+}
+.Image_Table{
+ height: auto;
+ width: 650px;
+ margin-top: 70px;
+
+    
+}
+
+.Image_Name{
+ font-family: sans-serif;
+ font-weight: bold;
+ text-align: center;
+	
+}
+.Images{
+ height: 400px;
+ width: 600px;
+ 
+}
+
+.myButton{
+cursor: pointer;
+	
+}
+
+.Download_Button{
+ text-decoration: none;
+ background-color: darkkhaki;
+ font-weight: bold;
+ font-family: verdana;
+ text-align: center;
+ padding: 5px 10px;
+
+}
+
+.Image_Description{
+ font-weight: lighter;
+ font-family: sans-serif, verdana,monospace;
+ line-height: 1.8;
+
+}
